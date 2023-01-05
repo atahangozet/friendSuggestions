@@ -1,0 +1,63 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.friend-preview{
+    display: inline-block;
+    margin-right: 10px;
+    width: 170px;
+    box-shadow: 0.5px 0.5px 2px 1px rgb(177, 177, 177);
+}
+.pp{
+    height: 170px;
+    width: 170px;
+    object-fit: fill;
+    cursor: pointer;
+}
+.profile-name{
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.profile-smallpic{
+    display: inline-block;
+}
+.mutual-pic{
+    margin-top: 5px;
+    margin-left: 8px;
+    object-fit: fill;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.mutual-friends{
+    display:inline-block;
+    font-size: 14px;
+    margin-left: 3px;
+    color: rgb(129, 129, 129);
+    font-weight: 400;
+}
+.add-button{
+    transition: 167ms;
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgb(7, 104, 207);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: rgb(26, 85, 148); ;
+}
